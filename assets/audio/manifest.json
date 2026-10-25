@@ -1,0 +1,181 @@
+{
+  "voice_style": "deep",
+  "clips": [
+    {
+      "lang": "en",
+      "scene": 0,
+      "file": "en/00.mp3",
+      "transcript": "A journey into the night.",
+      "duration_seconds": 1.608,
+      "size_bytes": 25728
+    },
+    {
+      "lang": "en",
+      "scene": 1,
+      "file": "en/01.mp3",
+      "transcript": "Through the white silence, a traveler moves forward.",
+      "duration_seconds": 3.168,
+      "size_bytes": 50688
+    },
+    {
+      "lang": "en",
+      "scene": 2,
+      "file": "en/02.mp3",
+      "transcript": "The stairs rise toward the unknown.",
+      "duration_seconds": 2.208,
+      "size_bytes": 35328
+    },
+    {
+      "lang": "en",
+      "scene": 3,
+      "file": "en/03.mp3",
+      "transcript": "A touch. And the threshold opens.",
+      "duration_seconds": 2.04,
+      "size_bytes": 32640
+    },
+    {
+      "lang": "en",
+      "scene": 4,
+      "file": "en/04.mp3",
+      "transcript": "Between the red columns, the journey continues.",
+      "duration_seconds": 2.856,
+      "size_bytes": 45696
+    },
+    {
+      "lang": "en",
+      "scene": 5,
+      "file": "en/05.mp3",
+      "transcript": "Three bottles. One choice.",
+      "duration_seconds": 1.56,
+      "size_bytes": 24960
+    },
+    {
+      "lang": "en",
+      "scene": 6,
+      "file": "en/06.mp3",
+      "transcript": "Blue flows into the glass.",
+      "duration_seconds": 1.704,
+      "size_bytes": 27264
+    },
+    {
+      "lang": "en",
+      "scene": 7,
+      "file": "en/07.mp3",
+      "transcript": "For a moment, everything changes.",
+      "duration_seconds": 1.992,
+      "size_bytes": 31872
+    },
+    {
+      "lang": "en",
+      "scene": 8,
+      "file": "en/08.mp3",
+      "transcript": "Lines turn. Time unravels.",
+      "duration_seconds": 1.632,
+      "size_bytes": 26112
+    },
+    {
+      "lang": "en",
+      "scene": 9,
+      "file": "en/09.mp3",
+      "transcript": "The columns separate. The sky opens.",
+      "duration_seconds": 2.184,
+      "size_bytes": 34944
+    },
+    {
+      "lang": "en",
+      "scene": 10,
+      "file": "en/10.mp3",
+      "transcript": "At the end of the journey, a new beginning.",
+      "duration_seconds": 2.592,
+      "size_bytes": 41472
+    },
+    {
+      "lang": "tr",
+      "scene": 0,
+      "file": "tr/00.mp3",
+      "transcript": "Geceye açılan bir yolculuk.",
+      "duration_seconds": 1.848,
+      "size_bytes": 29568
+    },
+    {
+      "lang": "tr",
+      "scene": 1,
+      "file": "tr/01.mp3",
+      "transcript": "Beyaz sessizliğin içinde, bir yolcu ilerliyor.",
+      "duration_seconds": 2.808,
+      "size_bytes": 44928
+    },
+    {
+      "lang": "tr",
+      "scene": 2,
+      "file": "tr/02.mp3",
+      "transcript": "Merdivenler, bilinmeyene yükseliyor.",
+      "duration_seconds": 2.28,
+      "size_bytes": 36480
+    },
+    {
+      "lang": "tr",
+      "scene": 3,
+      "file": "tr/03.mp3",
+      "transcript": "Bir dokunuş. Ve eşik açılıyor.",
+      "duration_seconds": 2.232,
+      "size_bytes": 35712
+    },
+    {
+      "lang": "tr",
+      "scene": 4,
+      "file": "tr/04.mp3",
+      "transcript": "Kırmızı sütunların arasında, yol devam ediyor.",
+      "duration_seconds": 3.312,
+      "size_bytes": 52992
+    },
+    {
+      "lang": "tr",
+      "scene": 5,
+      "file": "tr/05.mp3",
+      "transcript": "Üç şişe. Tek bir seçim.",
+      "duration_seconds": 1.632,
+      "size_bytes": 26112
+    },
+    {
+      "lang": "tr",
+      "scene": 6,
+      "file": "tr/06.mp3",
+      "transcript": "Mavi, bardağa akıyor.",
+      "duration_seconds": 1.464,
+      "size_bytes": 23424
+    },
+    {
+      "lang": "tr",
+      "scene": 7,
+      "file": "tr/07.mp3",
+      "transcript": "Bir anlığına, her şey değişiyor.",
+      "duration_seconds": 2.112,
+      "size_bytes": 33792
+    },
+    {
+      "lang": "tr",
+      "scene": 8,
+      "file": "tr/08.mp3",
+      "transcript": "Çizgiler dönüyor. Zaman çözülüyor.",
+      "duration_seconds": 2.352,
+      "size_bytes": 37632
+    },
+    {
+      "lang": "tr",
+      "scene": 9,
+      "file": "tr/09.mp3",
+      "transcript": "Sütunlar ayrılıyor. Gökyüzü açılıyor.",
+      "duration_seconds": 2.736,
+      "size_bytes": 43776
+    },
+    {
+      "lang": "tr",
+      "scene": 10,
+      "file": "tr/10.mp3",
+      "transcript": "Yolculuğun sonunda, yeni bir başlangıç.",
+      "duration_seconds": 2.712,
+      "size_bytes": 43392
+    }
+  ]
+}

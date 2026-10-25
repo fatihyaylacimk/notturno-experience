@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090a0d">
+  <meta name="description" content="Kaydırdıkça açılan, çizgilerle anlatılan bir gece yolculuğu. Türkçe ve İngilizce.">
+  <meta property="og:title" content="The Notturno Experience">
+  <meta property="og:description" content="Bir dokunuş. Bir eşik. Geceye açılan bir yolculuk.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/03_staircase_moon.webp">
+  <meta name="application-name" content="fatihyaylacimk">
+  <meta property="og:site_name" content="fatihyaylacimk">
+  <title>Notturno — fatihyaylacimk</title>
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="preload" as="image" href="assets/01_intro_ink.webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-tone="dark">
+  <a class="skip-link" href="#story-navigation">Sahne kontrollerine geç</a>
+  <main class="stage" id="stage" aria-label="Notturno görsel yolculuğu">
+    <img class="initial-art" src="assets/01_intro_ink.webp" alt="Siyah mürekkep dalgaları" fetchpriority="high" aria-hidden="true">
+    <canvas id="artwork" aria-hidden="true"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="intro-title" id="intro-title">
+      <span class="title-the" data-i18n="the">THE</span>
+      <h1><span class="title-name">N<span class="interlock">O</span>TTURNO</span><span class="title-experience" data-i18n="experience">DENEYİMİ</span></h1>
+      <p class="title-tagline" data-i18n="tagline">GECEYE AÇILAN BİR YOLCULUK</p>
+    </div>
+    <div class="caption-wrap" id="caption-wrap"><p class="caption" id="caption"></p></div>
+    <div class="end-card" id="end-card" hidden>
+      <p data-i18n="ending">YOLCULUK YENİDEN BAŞLAR.</p>
+      <button id="restart" class="restart-button"><span data-i18n="restart">Başa dön</span><span aria-hidden="true">↗</span></button>
+    </div>
+  </main>
+  <header class="header">
+    <button class="wordmark" id="home" aria-label="Başlangıca dön"><span class="monogram" aria-hidden="true">N</span><span>NOTTURNO<span class="wordmark-small">EXPERIENCE</span></span></button>
+    <nav class="top-nav" aria-label="Bölümler">
+      <button id="experience-nav" aria-current="page" data-i18n="navExperience">DENEYİM</button><span aria-hidden="true">/</span><button id="collection-nav" data-i18n="navCollection">KOLEKSİYON</button>
+    </nav>
+  </header>
+  <div class="side-progress" aria-hidden="true"><span id="progress-fill"></span></div>
+  <div class="chapter-marker" aria-hidden="true"><span id="chapter-number">01</span><span class="chapter-divider"></span><span id="chapter-name">BAŞLANGIÇ</span></div>
+  <div class="scroll-cue" id="scroll-cue" aria-hidden="true"><span data-i18n="scroll">KEŞFETMEK İÇİN KAYDIR</span><span class="scroll-line"></span><span class="scroll-arrow">↓</span></div>
+  <footer class="controls" id="story-navigation" aria-label="Sahne kontrolleri">
+    <div class="locale-switch" role="group" aria-label="Dil / Language"><button class="locale-button" data-lang="tr" aria-pressed="true" aria-label="Türkçe">TR</button><span aria-hidden="true">/</span><button class="locale-button" data-lang="en" aria-pressed="false" aria-label="English">EN</button></div>
+    <button class="sound-button" id="sound-toggle" aria-pressed="false" aria-label="Sesi aç"><svg class="sound-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10v4h3l5 4V6l-5 4H4Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path class="sound-wave" d="M16 8c2 2 2 6 0 8m3-11c4 4 4 10 0 14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path class="sound-slash" d="m16 9 6 6m0-6-6 6" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg><span id="sound-label">SESİ AÇ</span></button>
+    <div class="scene-navigation"><button id="previous" aria-label="Önceki sahne">←</button><span id="scene-count" aria-hidden="true">01 <span>/ 11</span></span><button id="next" aria-label="Sonraki sahne">→</button></div>
+  </footer>
+  <div class="asset-status" id="asset-status" role="status" hidden></div>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <p class="sr-only" id="announcement" aria-live="polite"></p>
+  <div class="scroll-rail" id="scroll-rail" aria-hidden="true"></div>
+  <noscript><div class="noscript-note">Bu görsel yolculuğu açmak için tarayıcınızda JavaScript'i etkinleştirin. Enable JavaScript to explore the illustrated journey.</div></noscript>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
